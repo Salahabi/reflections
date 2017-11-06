@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 It initiaces the repository and the first mandatory phase.
 $git Add Filne_Name #Adding to stagin area command
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the steps just ebfore Comit it is tenporaily entity and the value is to group or potential file that can we may need for our projects with diffirent Commit setting.
+
+Some Changed.
+
