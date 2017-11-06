@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+It initiaces the repository and the first mandatory phase.
+$git Add Filne_Name #Adding to stagin area command

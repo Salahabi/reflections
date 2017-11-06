@@ -1,0 +1,62 @@
+GIT used for collaboration.
+In Windows to compare two file we use the FC commande. Example:
+
+
+C:\Temp>FC game_old.js game_new.js
+
+
+***** game_old.js
+
+    if (KEY_STATUS.up) {
+      var rad = ((this.rot-90) * Math.PI)/180;
+***** GAME_NEW.JS
+
+    if (KEY_STATUS.spacr) {
+      var rad = ((this.rot-90) * Math.PI)/180;
+
+- DropBox seems to be the best options but no history offline
+GIT (Version Control system). Designed with Code in mind. MAnual Saving gives more logical checkpoint
+Commit: Building bloc/checkPoint of Git, 
+
+
+$Git Log # Gives a full details of the chanegs ID & Commit. Contains version of the contains each point of time.
+$Git Diff ComitID1 ComitID2
+
+How Often to Commit
+Since you can choose when to make a commit, you might be wondering how often to commit your changes. It's usually a good idea to keep commits small. As the diff between two versions gets bigger, it gets harder to understand and less useful. However, you don’t want to make your commits too small either. If you always save a commit every time you change a line of code, your history will be harder to read since it will have a huge number of commits over a short time period.
+A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood. Git allows you to write a short message explaining what was changed in each commit, and that message will be more useful if each commit has a single logical change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: 
+- Choose the logical CheckPoint
+- Knowing which versions to compares
+- not too big not too small the right size
+
+Cons:
+- Rely on Hunain decision maybe forget to save ontime
+- lose some versions
+- 
+
+$Git Log --stat # give some statistics which files has been modified
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Technically is difficult to merge many files in one entity for tracking purpose. Only Git has Comit concept which allow them to do it.
+
+$Git config --global color.ui auto #inject color in all projects because -auto option
+
+How can you use the commands git log and git diff to view the history of files?
+$Git log # to get the commit ID
+$Git Diif ID1 and ID2 #to check the history of the based we can compare two diffirent dates not necessary the recent versions.
+
+
+$Git Checkout #will take you to well know goor Commit version. very helpful when you have a bug but you are not sure which Commit version introduced it.
+
+
+How might using version control make you more confident to make changes that could break something?
+Yes as long as i can easly go back to the know working Commit version.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Usinf gor MAchine Learning Trainig.
+
