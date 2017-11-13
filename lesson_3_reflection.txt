@@ -1,1 +1,4 @@
 When would you want to create file in your remote repository rather than created it in your computer?
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks is only involved in GitHub, clones is involved in local environment and branch is related to Commit history
