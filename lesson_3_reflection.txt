@@ -2,3 +2,9 @@ When would you want to create file in your remote repository rather than created
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 forks is only involved in GitHub, clones is involved in local environment and branch is related to Commit history
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps when we are planning to go offline for extended period to make sure that we have the latest version of our code before making changes offline, this will reduce the number of conflict thus will be easy to sortout small conflict.
+
+
